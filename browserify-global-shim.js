@@ -1,0 +1,22 @@
+'use strict';
+
+var transformTools = require('browserify-transform-tools')
+	, _ = require('lodash')
+	;
+
+module.exports = transformTools.makeRequireTransform('browserify-global-shim',
+	{evaluateArguments: true},
+	function(args, opts, cb) {
+		var shimmedModules = opts.config || {};
+
+		var moduleName = args[0];
+		var shim = shimmedModules[moduleName];
+
+		if(_.isUndefined(shim)) {
+			return cb();
+		}
+		else {
+			return cb(null, '(window.' + shim + ')');
+		}
+	}
+);
