@@ -56,3 +56,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 Copyright (c) 2014 Raphael Luba. Licensed under the MIT license.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rluba/browserify-global-shim/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
