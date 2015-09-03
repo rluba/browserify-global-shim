@@ -2,7 +2,7 @@
 
 A [browserify](http://browserify.org) [transform](https://github.com/substack/node-browserify#btransformopts-tr) for replacing modules with global variables.
 
-Are you usind browserify to convert a module that depends on [lo-dash](http://lodash.com), [jQuery](http://jquery.com), [q](http://documentup.com/kriskowal/q/) or some other omnipresent library? And you don't want to include this dependency in your browserify-build because it's already part of your web app? Use **browserify-global-shim** to replace `require('some module')` with references to a global variable.
+Are you using browserify to convert a module that depends on [lo-dash](http://lodash.com), [jQuery](http://jquery.com), [q](http://documentup.com/kriskowal/q/) or some other omnipresent library? And you don't want to include this dependency in your browserify-build because it's already part of your web app? Use **browserify-global-shim** to replace `require('some module')` with references to a global variable.
 
 ## Getting Started
 Install the module with: `npm install --save-dev browserify-global-shim`
