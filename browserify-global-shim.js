@@ -15,7 +15,7 @@ module.exports = transformTools.makeRequireTransform('browserify-global-shim',
 		var moduleName = args[0];
 		var shim = shimmedModules[moduleName];
 
-		if(_.isUndefined(shim)) {
+		if(typeof shim === 'undefined') {
 			return cb();
 		}
 		else {
