@@ -1,6 +1,6 @@
 {
   "name": "browserify-global-shim",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "browserify-global-shim.js",
   "description": "Browserify transform for replacing modules with global variables",
   "homepage": "https://github.com/rluba/browserify-global-shim",
