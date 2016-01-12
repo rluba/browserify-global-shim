@@ -13,11 +13,7 @@
     "type": "git",
     "url": "https://github.com/rluba/browserify-global-shim"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "devDependencies": {
     "grunt-contrib-jshint": "~0.7.0",
     "grunt-contrib-watch": "~0.5.0",
