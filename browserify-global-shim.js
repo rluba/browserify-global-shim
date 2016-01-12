@@ -1,8 +1,6 @@
 'use strict';
 
-var transformTools = require('browserify-transform-tools')
-	, _ = require('lodash')
-	;
+var transformTools = require('browserify-transform-tools');
 
 module.exports = transformTools.makeRequireTransform('browserify-global-shim',
 	{
