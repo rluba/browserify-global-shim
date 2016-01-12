@@ -1,35 +1,35 @@
 {
-	"name": "browserify-global-shim",
-	"version": "1.0.0",
-	"main": "browserify-global-shim.js",
-	"description": "Browserify transform for replacing modules with global variables",
-	"homepage": "https://github.com/rluba/browserify-global-shim",
-	"bugs": "https://github.com/rluba/browserify-global-shim/issues",
-	"author": {
-		"name": "Raphael Luba",
-		"email": "raphael@leanbyte.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/rluba/browserify-global-shim"
-	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
-	"devDependencies": {
-		"grunt-contrib-jshint": "~0.7.0",
-		"grunt-contrib-watch": "~0.5.0",
-		"grunt-mocha-test": "~0.8.1",
-		"jshint-stylish": "~0.1.3",
-		"load-grunt-tasks": "~0.2.0",
-		"mocha": "~1.16.1",
-		"time-grunt": "~0.2.0",
-		"assert": "~1.1.0"
-	},
-	"dependencies": {
-		"browserify-transform-tools": "~1.2.1",
-		"lodash": "~2.4.1"
-	}
+  "name": "browserify-global-shim",
+  "version": "1.0.1",
+  "main": "browserify-global-shim.js",
+  "description": "Browserify transform for replacing modules with global variables",
+  "homepage": "https://github.com/rluba/browserify-global-shim",
+  "bugs": "https://github.com/rluba/browserify-global-shim/issues",
+  "author": {
+    "name": "Raphael Luba",
+    "email": "raphael@leanbyte.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rluba/browserify-global-shim"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "grunt-mocha-test": "~0.8.1",
+    "jshint-stylish": "~0.1.3",
+    "load-grunt-tasks": "~0.2.0",
+    "mocha": "~1.16.1",
+    "time-grunt": "~0.2.0",
+    "assert": "~1.1.0"
+  },
+  "dependencies": {
+    "browserify-transform-tools": "~1.2.1",
+    "lodash": "~2.4.1"
+  }
 }
